@@ -8,7 +8,7 @@ int main(void){
     
 
     printf("digite a segunda nota\n");
-   if(scanf("%f", &nota2) != 2) return 1;
+   if(scanf("%f", &nota2) != 1) return 1;
 
 
     media = (nota1 + nota2) / 2;
